@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\free-icon-eye-159604.png" />
+    <None Remove="Images\free-icon-padlock-25239.png" />
+    <None Remove="Images\free-icon-people-11418615.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\free-icon-eye-159604.png" />
+    <Resource Include="Images\free-icon-padlock-25239.png" />
+    <Resource Include="Images\free-icon-people-11418615.png" />
+  </ItemGroup>
+
+</Project>
