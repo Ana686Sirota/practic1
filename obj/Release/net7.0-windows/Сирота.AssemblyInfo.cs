@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Сирота")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3226f35692fbcf0bb16ac6addd663f2870f4ea07")]
 [assembly: System.Reflection.AssemblyProductAttribute("Сирота")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Сирота")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

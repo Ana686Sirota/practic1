@@ -25,15 +25,18 @@ namespace Сирота.Windows
             InitializeComponent();
         }
 
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        private void Window_Closing(object sender, RoutedEventArgs e)
         {
             Reg reg = new Reg();
 
             reg.Show();
 
             this.Hide();
+            
         }
-    }   
+    }
+} 
 
-     
-}
+
+
+

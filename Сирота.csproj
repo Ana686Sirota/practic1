@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <None Remove="Images\free-icon-eye-159604.png" />
+    <None Remove="Images\free-icon-hide-2767146.png" />
     <None Remove="Images\free-icon-padlock-25239.png" />
     <None Remove="Images\free-icon-people-11418615.png" />
   </ItemGroup>
@@ -19,6 +20,7 @@
 
   <ItemGroup>
     <Resource Include="Images\free-icon-eye-159604.png" />
+    <Resource Include="Images\free-icon-hide-2767146.png" />
     <Resource Include="Images\free-icon-padlock-25239.png" />
     <Resource Include="Images\free-icon-people-11418615.png" />
   </ItemGroup>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Сирота.Windows"
         mc:Ignorable="d"
-        Title="Reg" Height="450" Width="800" Background="MintCream">
+        Title="Reg" Height="450" Width="800" Background="Thistle">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -30,8 +30,14 @@
         <TextBlock Text=" логин" Grid.Column="0" Grid.Row="3" FontWeight="Medium" Margin="201,20,5,0"/>
         <TextBlock Text=" пароль" Grid.Column="0" Grid.Row="4" FontWeight="Medium" Margin="201,20,5,0"/>
         <TextBlock Text=" повтор пароля" Grid.Column="0" Grid.Row="5" FontWeight="Medium" Margin="164,20,5,0"/>
-        <Image x:Name="zamok2" Source="/Images/free-icon-padlock-25239.png" Grid.Column="1" Grid.ColumnSpan="2" Margin="199,10,147,14" Grid.Row="3" />
-        <Image x:Name="human2" Source="/Images/free-icon-people-11418615.png" Grid.Column="1" Grid.ColumnSpan="2" Margin="187,10,137,12" Grid.Row="2" />
-        <Button Content="Регистрация" FontSize="15" Grid.Column="1" Grid.Row="6" Margin="62,10,62,10" Background="Snow"/>
+        <Image x:Name="zamok2" Source="/Images/free-icon-padlock-25239.png" Grid.Column="1" Grid.ColumnSpan="2" Margin="205,10,140,14" Grid.Row="3" />
+        <Image x:Name="human2" Source="/Images/free-icon-people-11418615.png" Grid.Column="1" Grid.ColumnSpan="2" Margin="192,10,132,12" Grid.Row="2" />
+        <Button Content="Зарегистрироваться" FontSize="15" Grid.Column="1" Grid.Row="6" Margin="62,10,57,10" Background="Snow"/>
+        <Button Grid.Column="2" Grid.Row="4" Margin="10,10,212,10" Background="Snow">
+              <Image Source="/Images/free-icon-hide-2767146.png" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2"/>
+        </Button>
+        <Button Grid.Column="2" Grid.Row="5" Margin="10,10,212,10" Background="Snow">
+            <Image Source="/Images/free-icon-hide-2767146.png" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2"/>
+        </Button>
     </Grid>
 </Window>
